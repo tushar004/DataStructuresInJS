@@ -6,6 +6,13 @@ class Graph {
     this.AdjList = new Map();
   }
 
+  addVertex(v) 
+{ 
+    // initialize the adjacent list with a 
+    // null array 
+    this.AdjList.set(v, []); 
+}
+
   addEdge(v, w) {
     // get the list for vertex v and put the
     // vertex w denoting edge between v and w
