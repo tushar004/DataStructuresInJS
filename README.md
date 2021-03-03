@@ -1,4 +1,4 @@
 # DataStructuresInJS:.
 
-## Linked list
-## BST
+### Linked list
+### BST
